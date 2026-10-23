@@ -1,0 +1,52 @@
+# ===========================
+# Python / Backend
+# ===========================
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/routers/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/lms.db
+backend/test_lms.db
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.Python
+.env
+.venv
+env/
+venv/
+
+# ===========================
+# Node / Frontend
+# ===========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ===========================
+# OS / Editor
+# ===========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===========================
+# Secrets / Environment
+# ===========================
+.env
+.env.local
+.env.production
+*.pem
+*.key
